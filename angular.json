@@ -148,7 +148,7 @@
       }
     }
   },
-  "defaultProject": "inevito-shipaco-task",
+  "defaultProject": "vyabase",
   "cli": {
     "analytics": false
   }
