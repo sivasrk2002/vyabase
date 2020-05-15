@@ -1,20 +1,26 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
+import { NgModule } from "@angular/core";
+import { RouterModule, Routes } from "@angular/router";
 
 // Import Containers
-import { DefaultLayoutComponent } from './containers';
+import { DefaultLayoutComponent } from "./containers";
 
 export const routes: Routes = [
   {
-    path: '',
+    path: "",
     component: DefaultLayoutComponent,
     data: {
-      title: 'Home'
+      title: "Home"
     },
     children: [
       {
-        path: 'sample',
-        loadChildren: () => import('./module/sample/sample.module').then(m => m.SampleModule)
+        path: "sample",
+        loadChildren: () =>
+          import("./module/sample/sample.module").then(m => m.SampleModule)
+      },
+      {
+        path: "user-application",
+        loadChildren: () =>
+          import("./module/user/user.module").then(m => m.UserModule)
       }
     ]
   }
