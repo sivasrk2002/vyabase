@@ -21,7 +21,8 @@ export const routes: Routes = [
         path: "user-application",
         loadChildren: () =>
           import("./module/user/user.module").then(m => m.UserModule)
-      },
+      }
+/*
        { 
        path:"grid",
        loadChildren:() =>
@@ -57,6 +58,7 @@ export const routes: Routes = [
         loadChildren:()=>
         import("./module/order/order.module").then(m => m.OrderModule)
       },
+*/
      
     ]
   }

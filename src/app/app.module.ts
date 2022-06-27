@@ -3,7 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { ToastrModule } from 'ngx-toastr';
+// import { ToastrModule } from 'ngx-toastr';
 
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 // @ts-ignore TS6133
@@ -35,6 +35,7 @@ import { ChartsModule } from 'ng2-charts';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+/*
 import { ReactiveFormsModule } from '@angular/forms';
 import { GridModule } from './module/grid/grid.module';
 import { CouponModule } from './module/coupon/coupon.module';
@@ -43,9 +44,7 @@ import { JobModule } from './module/jobopening/job.module';
 import { AddressModule } from './module/address/address.module';
 import { SaleModule } from './module/sale/sale.module';
 import { OrderModule } from './module/order/order.module';
-
-
-
+*/
 
 
 // import { AddComponent } from './grid-content/add/add.component';
@@ -65,6 +64,7 @@ import { OrderModule } from './module/order/order.module';
     BsDropdownModule.forRoot(),
     TabsModule.forRoot(),
     ChartsModule,
+/*
     ReactiveFormsModule,
     GridModule,
     CouponModule,
@@ -74,6 +74,7 @@ import { OrderModule } from './module/order/order.module';
     AddressModule,
     SaleModule,
     OrderModule,
+*/
     
     
     // AngularSlickgridModule.forRoot(),

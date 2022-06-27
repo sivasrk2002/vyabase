@@ -19,7 +19,8 @@ export const navItems: INavData[] = [
     name: "User Application",
     url: "/user-application",
     icon: "icon-pencil"
-  },
+  }
+/*
   {
     name:"Grid application",
     url:"/grid",
@@ -69,4 +70,5 @@ export const navItems: INavData[] = [
       }
     ]
   }
+*/
 ];
