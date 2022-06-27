@@ -21,13 +21,49 @@ export const routes: Routes = [
         path: "user-application",
         loadChildren: () =>
           import("./module/user/user.module").then(m => m.UserModule)
-      }
+      },
+       { 
+       path:"grid",
+       loadChildren:() =>
+          import("./module/grid/grid.module").then(m => m.GridModule)
+       },
+       {
+         path:"coupon",
+         loadChildren:()=>
+         import("./module/coupon/coupon.module").then(m =>m.CouponModule)
+       },
+      {
+        path:"payment",
+        loadChildren:() =>
+        import("./module/payment/payment.module").then(m => m.PaymentModule)
+      },
+      {
+        path:"job",
+        loadChildren:()=>
+        import("./module/jobopening/job.module").then(m => m.JobModule)
+      },
+      {
+        path:"address",
+        loadChildren:()=>
+        import("./module/address/address.module").then(m =>m.AddressModule)
+      },
+      {
+        path:"sale",
+        loadChildren:()=>
+        import("./module/sale/sale.module").then(m => m.SaleModule)
+      },
+      {
+        path:"order",
+        loadChildren:()=>
+        import("./module/order/order.module").then(m => m.OrderModule)
+      },
+     
     ]
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, { relativeLinkResolution: 'legacy' })],
   exports: [RouterModule]
 })
 export class AppRoutingModule {}
