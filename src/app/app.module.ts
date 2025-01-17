@@ -9,9 +9,7 @@ import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 // @ts-ignore TS6133
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
-// import { AngularSlickgridModule } from 'angular-slickgrid'; 
-// import { GridContentComponent } from './module/grid/grid-content/grid-content.component';
-
+// import { AngularSlickgridModule } from 'angular-slickgrid';
 
 // @ts-ignore TS6133
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
@@ -35,6 +33,7 @@ import { ChartsModule } from 'ng2-charts';
 import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { TabsModule } from 'ngx-bootstrap/tabs';
+
 /*
 import { ReactiveFormsModule } from '@angular/forms';
 import { GridModule } from './module/grid/grid.module';

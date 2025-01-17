@@ -21,7 +21,33 @@ export const routes: Routes = [
         path: "user-application",
         loadChildren: () =>
           import("./module/user/user.module").then(m => m.UserModule)
-      }
+      },
+      {
+        path: "validation",
+        loadChildren: () =>
+          import("./module/validation/validation.module").then(m => m.ValidationModule)
+      },
+      {
+        path: "srk",
+        loadChildren: () =>
+          import("./module/srk/srk.module").then(m => m.SrkModule)
+      },
+      {
+        path: "siva",
+        loadChildren: () =>
+          import("./module/siva/siva.module").then(m => m.SivaModule)
+      },
+      {
+        path: "rama",
+        loadChildren: () =>
+          import("./module/rama/rama.module").then(m => m.RamaModule)
+      },
+      {
+        path: "krishnan",
+        loadChildren: () =>
+          import("./module/krishnan/krishnan.module").then(m => m.KrishnanModule)
+      },
+
 /*
        { 
        path:"grid",

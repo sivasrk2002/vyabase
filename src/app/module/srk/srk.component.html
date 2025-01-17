@@ -1,0 +1,67 @@
+<!--             
+<div class="animated fadeIn">
+<div class="row">
+  <div class="col-lg-12">
+    <div class="card">
+      <div class="card-header"><i class="fa fa-align-justify"></i> Simple Table</div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-sm-8">
+              <button type="button" class="btn btn-primary mb-2" routerLink="add"><i class ="fa fa-plus-square" aria-hidden="true"></i></button>
+        <table >
+
+                     <tr>
+                  <th>name</th>
+                  <th>ID</th>
+                  <th>number</th>
+                  <th>role</th>
+                  <th>status</th>
+                </tr>
+              <tr *ngFor="let employee of employees">
+              <td>{{ employee.name }}</td>
+              <td>{{ employee.id }}</td>
+              <td>{{ employee.number }}</td>
+              <td>{{ employee.role }}</td>
+              <td>{{ employee.status }}</td>
+              </tr>
+</table></div></div></div></div></div>*/ -->
+<div class="animated fadeIn">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="card">
+        <div class="card-header"><i class="fa fa-align-justify"></i> Simple Table
+          <a class="fa fa-plus" style="float: right;" [routerLink]="['add']"></a>
+        
+        </div>
+      <div class="card-body">
+          <div class="row">
+            
+              <table class="table">
+              <!-- <table.auto  -->
+                  <!-- table-layout: auto;></table.auto> -->
+                <thead>
+                  <tr>
+                    <th>Name</th>
+                    <th>ID</th>
+                    <th>Number</th>
+                    <th>Role</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr *ngFor="let employee of employees">
+                    <td>{{ employee.name }}</td>
+                    <td>{{ employee.id }}</td>
+                    <td>{{ employee.number }}</td>
+                    <td>{{ employee.role }}</td>
+                    <td>{{ employee.status }}</td>
+                  </tr>
+                </tbody>
+              </table>
+           
+          <!-- </div> -->
+        <!-- </div> -->
+      </div>
+    </div>
+  </div>
+</div>

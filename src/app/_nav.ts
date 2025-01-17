@@ -19,6 +19,31 @@ export const navItems: INavData[] = [
     name: "User Application",
     url: "/user-application",
     icon: "icon-pencil"
+  },
+{
+    name: "validation",
+    url: "/validation",
+    icon: "icon-pencil"
+  },
+  {
+    name: "siva",
+    url: "/siva",
+    icon: "icon-pencil"
+  },
+  {
+    name: "srk",
+    url: "/srk",
+    icon: "icon-pencil"
+  },
+  {
+    name: "rama",
+    url: "/rama",
+    icon: "icon-pencil"
+  },
+  {
+    name: "krishnan",
+    url: "/krishnan",
+    icon: "icon-pencil"
   }
 /*
   {
@@ -26,7 +51,7 @@ export const navItems: INavData[] = [
     url:"/grid",
     icon:"icon-pencil"
   },
-  {
+  {  
     name:"Coupon",
     url:"/coupon",
     icon:"icon-pencil"

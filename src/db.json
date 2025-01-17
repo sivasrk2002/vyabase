@@ -1,0 +1,32 @@
+{
+    "employees": [
+        {
+            "name": "siva",
+            "id": "S01",
+            "number": 4748483884,
+            "role": "it",
+            "status": "active"
+        },
+        {
+            "name": "rama",
+            "id": "S02",
+            "number": 4743883104,
+            "role": "cse",
+            "status": "lnactive"
+        },
+        {
+            "name": "krishnan",
+            "id": "S03",
+            "number": 5643248384,
+            "role": "mech",
+            "status": "active"
+        },
+        {
+            "name": "vasee",
+            "id": "S04",
+            "number": 4747834884,
+            "role": "civil",
+            "status": "inactive"
+        }
+    ]
+}

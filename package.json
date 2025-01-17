@@ -20,7 +20,8 @@
     "prettier": "prettier .prettierrc --check ./*.{html,ts,css,scss,json} ./**/*.{html,ts,css,scss,json}",
     "prettier:fix": "prettier .prettierrc --write ./*.{html,ts,css,scss,json} ./**/*.{html,ts,css,scss,json}",
     "format:check": "npm run lint && npm run prettier",
-    "format:fix": "npm run lint:fix && npm run prettier:fix"
+    "format:fix": "npm run lint:fix && npm run prettier:fix",
+    "json:server": "json-server --watch db.json --port 3000"
   },
   "private": true,
   "dependencies": {
@@ -49,7 +50,9 @@
     "file-saver": "^2.0.2",
     "flag-icon-css": "^3.4.5",
     "font-awesome": "^4.7.0",
+    "g": "^2.0.1",
     "jquery": "^3.6.0",
+    "json": "^11.0.0",
     "json2typescript": "^1.2.3",
     "moment": "^2.24.0",
     "mutationobserver-shim": "^0.3.3",
@@ -84,6 +87,7 @@
     "codelyzer": "^6.0.0",
     "jasmine-core": "~3.6.0",
     "jasmine-spec-reporter": "~5.0.0",
+    "json-server": "^1.0.0-beta.3",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.1.0",
     "karma-coverage-istanbul-reporter": "~3.0.2",
